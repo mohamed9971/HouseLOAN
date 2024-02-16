@@ -2,9 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import os
 
-os.chdir('/Users/mohamedatef/Downloads')
+
+
 
 Model = joblib.load('DT_houseLOAN.h5')
 columns = joblib.load('DT_houseLOAN_columns.h5')
